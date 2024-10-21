@@ -1,0 +1,24 @@
+h1{
+    /* border: 2px solid black; */
+    color: yelow;
+    /* here first is horizontal  2nd is vertical 3rd is Blur */
+    text-shadow: 3px 3px 3px green;
+    text-shadow: 3px 3px 3px green, 5px 5px 5px red;
+}
+
+.box{
+    background-color: aqua;
+    color: red;
+    width: 200px;
+    height: 200px;
+    /* default color of the Border box is the color of the text */
+    box-shadow: 10px 10px ;
+    /* we can also use color for border box */
+    box-shadow: 10px 10px green;
+    /* we can use blur for border box */
+    box-shadow: 10px 10px 15px green;
+    /* we can use */
+    box-shadow: 10px 10px 15px green, 15px 15px 15px brown;
+    /* by giving negative value we can easily  */
+    box-shadow: -10px -10px -15px green, 15px 15px 15px brown;
+}

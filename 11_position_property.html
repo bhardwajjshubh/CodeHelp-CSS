@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position property</title>
+     <style>
+        /* CSS Position Static (default), absolute, relative, fixed, sticky */
+        .box{
+            border: 2px solid red;
+            width: 150px;
+            height: 150px;
+            margin: 5px;
+            display: inline-block;
+        }
+        #box1{
+            /* relative-> it is relative to its normal position and will leave the gap at its normal position
+            position: relative;
+            top: 45px;
+            left: 20px;
+            */
+            /* absolute-> relative to the position of its first parent */
+            position: absolute;
+            top: 12px;
+            left: 30px;
+
+            position: fixed;
+        }
+     </style>
+</head>
+<body>
+   
+    <div id="box1" class="box">1</div>
+    <div id="box2" class="box">2</div>
+    <div id="box3" class="box">3</div>
+    <div id="box4" class="box">4</div>
+
+</body>
+</html>
